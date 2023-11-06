@@ -78,7 +78,7 @@ function App() {
         </CustomBtn>
       </div>
       <div className='Outer'>
-        <h2 className='title'>Todo</h2>
+        <h2 className='title'>😥Todo</h2>
         <div className='Scroll'>
           {todo.map((todo) => {
             return (
@@ -96,7 +96,7 @@ function App() {
             );
           })}
         </div>
-        <h2 className='title'>Done</h2>
+        <h2 className='title'>😀Done</h2>
         <div className='Scroll'>
           {doneTodo.map((doneTodo) => {
             return (
